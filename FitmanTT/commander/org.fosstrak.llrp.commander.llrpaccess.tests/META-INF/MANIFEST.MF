@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.fosstrak.llrp.commander.llrpaccess.tests
+Bundle-SymbolicName: org.fosstrak.llrp.commander.llrpaccess.tests;singleton:=true
+Bundle-Version: 1.1.1.qualifier
+Require-Bundle: org.fosstrak.llrp.llrp-adaptor-integration;bundle-version="1.1.1",
+ org.fosstrak.llrp.commander.commons;bundle-version="1.1.1",
+ org.fosstrak.llrp.commander.llrpaccess;bundle-version="1.1.1",
+ org.junit,
+ org.easymock;bundle-version="2.4.0"
+Import-Package: org.apache.log4j
+Bundle-Vendor: ETH Zurich
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: .

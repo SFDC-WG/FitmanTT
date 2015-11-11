@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.fosstrak.llrp.commander.commons
+Bundle-SymbolicName: org.fosstrak.llrp.commander.commons;singleton:=true
+Bundle-Version: 1.1.1.qualifier
+Require-Bundle: org.eclipse.jface;bundle-version="3.8.0",
+ org.eclipse.jface.text;bundle-version="3.8.0",
+ org.eclipse.ui.editors;bundle-version="3.8.0",
+ org.eclipse.core.runtime;bundle-version="3.8.0",
+ org.apache.commons.lang;bundle-version="2.6.0",
+ org.fosstrak.llrp.llrp-adaptor-integration;bundle-version="1.1.1"
+Import-Package: org.apache.log4j
+Bundle-Vendor: ETH Zurich
+Export-Package: org.fosstrak.llrp.commander.provider,
+ org.fosstrak.llrp.commander.type,
+ org.fosstrak.llrp.commander.util,
+ org.fosstrak.llrp.commander.xml.type
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: .
